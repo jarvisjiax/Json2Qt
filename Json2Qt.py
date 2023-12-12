@@ -1,4 +1,103 @@
 '''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:20:23
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:20:23
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:19:25
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:19:25
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:18:39
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:18:39
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:17:49
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:17:49
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:16:21
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:16:22
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:15:41
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:15:41
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:14:43
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:14:43
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 13:10:14
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 13:10:14
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 12:39:55
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 12:39:55
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 12:36:13
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 12:36:13
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-12 12:35:56
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-12 12:35:56
+@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
+@CopyRight             : MerBleueAviation
+'''
+
+'''
 # Introduction
 
 A Qt code generator to automatically translate JSON to Qt class type.
@@ -202,6 +301,10 @@ class Generator:
     @staticmethod
     def declareClassQJsonObjectFunc():
         return Generator.indent + 'QJsonObject toQJsonObject() const;\n'
+    
+    @staticmethod
+    def declareClasssavetofile():
+        return Generator.indent + 'bool saveToJsonFile(const QString& filename);\n'
 
     @staticmethod
     def defineSetFunc(classname:str,prop:QtProperty):
@@ -281,7 +384,34 @@ class Generator:
                 ans += indent + f'obj.insert("{qprop.name}",this->{qjsonValue});\n'
         ans += indent + 'return obj;\n}\n'
         return ans
+    
+    @staticmethod
+    def defineClasssavetofileFunc(qclass:QtClass):
+        '將類別轉換成QJsonObject資料'
+        indent = Generator.indent
+        ans = f'bool {qclass.name}::saveToJsonFile(const QString& filename)\n'
+        ans += '{\n'
+        ans += indent + 'QJsonObject rootObj = this->toQJsonObject();\n'
+        ans += indent + 'QJsonDocument document;\n'
+        ans += indent + ' document.setObject(rootObj);\n'
+        ans += indent + 'QByteArray byte_array = document.toJson(QJsonDocument::Indented);\n'
 
+        ans += indent + 'QFile file1(filename);\n'
+        ans += indent + 'if (!file1.exists()) {\n'
+        ans += indent + '    qWarning("File does not exist: %s", filename.toStdString().c_str());\n'
+        ans += indent + '    return false;\n'
+        ans += indent + '}\n'
+        ans += indent + 'if(!file1.open(QIODevice::WriteOnly)){\n'
+        ans += indent + '    auto msg = QString("File1 (%1) open fail: %2.").arg(filename,file1.errorString());\n'
+        ans += indent + '    qFatal("%s",msg.toStdString().c_str());\n'
+        ans += indent + '    return false;\n'
+        ans += indent + '}\n'
+        ans += indent + 'file1.write(byte_array);\n'
+        ans += indent + 'file1.close();\n'
+        ans += indent + 'return true;\n'
+        ans += '}\n'
+        return ans
+    
     @staticmethod
     def declareClass(qclass:QtClass,isPrivateMember:bool = False):
         'return class declare'
@@ -294,6 +424,8 @@ class Generator:
         ans += Generator.declareClassConstructor(qclass.name)
         ## declare class to QJsonObject function
         ans += Generator.declareClassQJsonObjectFunc()
+        ## declare class to savetofile function
+        ans += Generator.declareClasssavetofile()
         ## declare property and Read Write function 
         for qprop in qclass.attributes:
             if isPrivateMember:
@@ -314,6 +446,7 @@ class Generator:
         ans = Generator.defineClassConstructor(qclass) + '\n'
         ## declare class to QJsonObject function
         ans += Generator.defineClassQJsonObjectFunc(qclass) + '\n'
+        ans += Generator.defineClasssavetofileFunc(qclass) + '\n'
         if isPrivateMember:
             ans += '\n'
             for qprop in qclass.attributes:
