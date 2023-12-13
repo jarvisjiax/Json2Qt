@@ -1,5 +1,14 @@
 '''
 @Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-13 17:32:06
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-13 17:32:06
+@FilePath              : S335/Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
 @CreatedDate           : 2023-12-12 13:20:23
 @LastEditors           : jarvis<1405191257@qq.com>
 @LastEditDate          : 2023-12-12 13:20:23
@@ -457,7 +466,7 @@ class Generator:
     @staticmethod
     def defineJsonFileParseFunc()->str:
         indent = Generator.indent
-        ans = 'QJsonObject parseJsonFile(const QString& filename)\n'
+        # ans = 'QJsonObject parseJsonFile(const QString& filename)\n'
         ans += '{\n'
         ans += indent + 'QFile file(filename);\n'
         ans += indent + 'if(!file.open(QIODevice::ReadOnly)){\n'
@@ -511,7 +520,7 @@ class Generator:
         # Add include
         ans = f'#include "{self.name}.h"\n\n'
         # define json parse File function
-        ans +=  Generator.defineJsonFileParseFunc()
+        # ans +=  Generator.defineJsonFileParseFunc()、
         # define classes function
         ans += '\n'
         for qclass in self.classList:
