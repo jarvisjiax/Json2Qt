@@ -419,7 +419,7 @@ class Generator:
     # def declareProperty(prop:QtProperty):
     #     return f'{prop.typeStr()} {QtProperty.lowerStyle(prop.name)};\n'
     def declareProperty(prop:QtProperty):
-        return f'FLELD({prop.typeStr()},{QtProperty.lowerStyle(prop.name)})\n'
+        return f'FIELD({prop.typeStr()},{QtProperty.lowerStyle(prop.name)})\n'
     
     @staticmethod
     def declareSetFunc(prop:QtProperty):
