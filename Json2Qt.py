@@ -1,5 +1,41 @@
 '''
 @Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-18 17:52:10
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-18 17:52:10
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-18 17:52:03
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-18 17:52:03
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-18 17:39:16
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-18 17:39:16
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-18 17:18:01
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-18 17:18:01
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
 @CreatedDate           : 2023-12-18 12:53:11
 @LastEditors           : jarvis<1405191257@qq.com>
 @LastEditDate          : 2023-12-18 12:53:11
@@ -252,8 +288,16 @@ class QtProperty:
 
     def typeStr(self)->str:
         '回傳屬性的型別(QList<int>,int,...)'
+        print("=======================")
+        print(self.name)
+        print(self.isClass())
+        print(self.baseType)
+        print(type(self.baseType))
         baseTypeName = self.capitalStyle(self.name) if self.isClass() else self.baseType
-        return f'QList<{baseTypeName}*>' if self.islist else baseTypeName
+        if self.isClass():
+            return f'QList<{baseTypeName}*>' if self.islist else baseTypeName
+        else:
+            return f'QList<{baseTypeName}>' if self.islist else baseTypeName
 
     @staticmethod
     def formValue(name:str,value):
@@ -340,7 +384,7 @@ class Generator:
     setFuncName:str = 'set' # ex: void setAge(const int &age);
     getFuncName:str = 'get' # ex: int getAge() const;
 
-    def __init__(self,name:str,data:dict,isPrivateMember:bool = False):
+    def __init__(self,name:str,data:dict,isPrivateMember:bool = True):
         self.name:str = name.lower()
         self.classList:list = [] # the list of processed class
         # class use private data member, use getter() and setter() function if it's true
@@ -372,8 +416,10 @@ class Generator:
         pass
 
     @staticmethod
+    # def declareProperty(prop:QtProperty):
+    #     return f'{prop.typeStr()} {QtProperty.lowerStyle(prop.name)};\n'
     def declareProperty(prop:QtProperty):
-        return f'{prop.typeStr()} {QtProperty.lowerStyle(prop.name)};\n'
+        return f'FLELD({prop.typeStr()},{QtProperty.lowerStyle(prop.name)})\n'
     
     @staticmethod
     def declareSetFunc(prop:QtProperty):
@@ -519,15 +565,8 @@ class Generator:
         ## declare class to savetofile function
         ans += Generator.declareClasssavetofile()
         ## declare property and Read Write function 
-        for qprop in qclass.attributes:
-            if isPrivateMember:
-                ans += f'\n\\Read and Write function to {qprop.name}'
-                ans += Generator.indent + Generator.declareGetFunc(qprop)
-                ans += Generator.indent + Generator.declareSetFunc(qprop)
-            else:
-                ans += Generator.indent + Generator.declareProperty(qprop)
+        ans += "\n"
         if isPrivateMember:
-            ans += '\nprivate:\n'
             for qprop in qclass.attributes:
                 ans += Generator.indent + Generator.declareProperty(qprop)
         ans += '};\n'
@@ -539,11 +578,11 @@ class Generator:
         ## declare class to QJsonObject function
         ans += Generator.defineClassQJsonObjectFunc(qclass) + '\n'
         ans += Generator.defineClasssavetofileFunc(qclass) + '\n'
-        if isPrivateMember:
-            ans += '\n'
-            for qprop in qclass.attributes:
-                ans += Generator.defineGetFunc(qclass.name,qprop) + '\n'
-                ans += Generator.defineSetFunc(qclass.name,qprop) + '\n'
+        # if isPrivateMember:
+        #     ans += '\n'
+        #     for qprop in qclass.attributes:
+        #         ans += Generator.defineGetFunc(qclass.name,qprop) + '\n'
+        #         ans += Generator.defineSetFunc(qclass.name,qprop) + '\n'
         return ans + '\n'
 
     @staticmethod
@@ -623,7 +662,7 @@ def main(filename:str):
     # get class name form file name
     classname = os_path.basename(filename).split('.')[0]
     # Use Generator turn data to QtClass list
-    g = Generator(classname,data,False)
+    g = Generator(classname,data,True)
     # generate classname.h
     with open(classname + '.h', 'w') as headerFile:
         headerFile.write(g.buildHeader())
