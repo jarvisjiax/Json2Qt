@@ -1,110 +1,192 @@
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-13 17:32:06
+@CreatedDate           : 2023-12-18 12:53:11
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-13 17:32:06
-@FilePath              : S335/Json2Qt/Json2Qt.py
+@LastEditDate          : 2023-12-18 12:53:11
+@FilePath              : Json2Qt/Json2Qt.py
 @CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:20:23
+@CreatedDate           : 2023-12-18 12:45:09
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:20:23
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-18 12:45:09
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:19:25
+@CreatedDate           : 2023-12-18 12:37:07
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:19:25
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-18 12:37:07
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:18:39
+@CreatedDate           : 2023-12-15 18:17:32
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:18:39
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 18:17:32
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:17:49
+@CreatedDate           : 2023-12-15 18:02:44
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:17:49
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 18:02:44
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:16:21
+@CreatedDate           : 2023-12-15 18:01:05
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:16:22
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 18:01:05
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:15:41
+@CreatedDate           : 2023-12-15 18:00:23
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:15:41
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 18:00:23
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:14:43
+@CreatedDate           : 2023-12-15 17:53:58
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:14:43
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 17:53:58
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 13:10:14
+@CreatedDate           : 2023-12-15 17:52:50
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 13:10:14
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 17:52:50
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 12:39:55
+@CreatedDate           : 2023-12-15 17:51:56
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 12:39:55
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 17:51:56
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 12:36:13
+@CreatedDate           : 2023-12-15 17:51:09
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 12:36:13
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 17:51:09
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
 
 '''
 @Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-12 12:35:56
+@CreatedDate           : 2023-12-15 17:50:45
 @LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-12 12:35:56
-@FilePath              : Json2Qt/Json2Qt/Json2Qt.py
-@CopyRight             : MerBleueAviation
+@LastEditDate          : 2023-12-15 17:50:45
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
 '''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:47:32
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:47:32
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:41:57
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:41:57
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:41:21
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:41:21
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:39:59
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:39:59
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:39:52
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:39:52
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:36:07
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:36:07
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:32:06
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:32:06
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:27:01
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:27:01
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
+'''
+@Author                : jarvis<1405191257@qq.com>
+@CreatedDate           : 2023-12-15 17:25:21
+@LastEditors           : jarvis<1405191257@qq.com>
+@LastEditDate          : 2023-12-15 17:25:21
+@FilePath              : Json2Qt/Json2Qt.py
+@CopyRight             : Jarvis<1405191257@qq.com>
+'''
+
 
 '''
 # Introduction
@@ -171,7 +253,7 @@ class QtProperty:
     def typeStr(self)->str:
         '回傳屬性的型別(QList<int>,int,...)'
         baseTypeName = self.capitalStyle(self.name) if self.isClass() else self.baseType
-        return f'QList<{baseTypeName}>' if self.islist else baseTypeName
+        return f'QList<{baseTypeName}*>' if self.islist else baseTypeName
 
     @staticmethod
     def formValue(name:str,value):
@@ -345,7 +427,7 @@ class Generator:
             ans += indent + f'for(auto i:{arrayName})' + '{\n'
             arrayItem = f'i.{QtProperty.converterFunc(prop.baseType)}'
             if prop.isClass():
-                arrayItem = f'{QtProperty.capitalStyle(prop.name)}({arrayItem})'
+                arrayItem = f'new {QtProperty.capitalStyle(prop.name)}({arrayItem})'
             ans += indent*2 + f'this->{QtProperty.lowerStyle(prop.name)}.append({arrayItem});\n'
             ans += indent + '}\n'
         else:
@@ -384,7 +466,7 @@ class Generator:
                 jsonArray:str = f'{QtProperty.capitalStyle(qprop.name)}Array'
                 ans += indent + f'QJsonArray {jsonArray};\n'
                 ans += indent + f'for(auto i:this->{propName})' + '{\n'
-                jsonValueItem:str = 'i.toQJsonObject()' if qprop.isClass() else 'i'
+                jsonValueItem:str = 'i->toQJsonObject()' if qprop.isClass() else 'i'
                 ans += indent*2 + f'{jsonArray}.append({jsonValueItem});\n'
                 ans += indent + '}\n'
                 ans += indent + f'obj.insert("{qprop.name}",{jsonArray});\n'
@@ -427,6 +509,7 @@ class Generator:
         ## add class commit
         ans = f'// class {qclass.name}\n'
         ans += f'class {qclass.name}' + '{\n'
+        # ans += f'QJsonObject {qclass.name}::init(const QString& filename);\n'
         ans += 'public:\n'
         ## add class constructor
         ans += Generator.indent + f'{qclass.name}() = default;\n'
@@ -466,7 +549,7 @@ class Generator:
     @staticmethod
     def defineJsonFileParseFunc()->str:
         indent = Generator.indent
-        # ans = 'QJsonObject parseJsonFile(const QString& filename)\n'
+        ans = 'QJsonObject parseJsonFile(const QString& filename)\n'
         ans += '{\n'
         ans += indent + 'QFile file(filename);\n'
         ans += indent + 'if(!file.open(QIODevice::ReadOnly)){\n'
@@ -506,7 +589,7 @@ class Generator:
         ans += '#include <QJsonObject>\n'
         ans += '#include <QJsonArray>\n\n'
         # declare Json file parse func
-        ans += 'QJsonObject parseJsonFile(const QString& filename);\n'
+        # ans += 'QJsonObject parseJsonFile(const QString& filename);\n'
         # declare classes
         ans += '\n'
         for qclass in self.classList:
@@ -520,7 +603,7 @@ class Generator:
         # Add include
         ans = f'#include "{self.name}.h"\n\n'
         # define json parse File function
-        # ans +=  Generator.defineJsonFileParseFunc()、
+        ans +=  Generator.defineJsonFileParseFunc()\
         # define classes function
         ans += '\n'
         for qclass in self.classList:
