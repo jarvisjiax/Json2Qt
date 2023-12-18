@@ -1,12 +1,12 @@
-#ifndef USER_H
-#define USER_H
+#ifndef CFGSENSORLIST_H
+#define CFGSENSORLIST_H
 
 // Code generate by Json2Qt.py https://github.com/Loukei/Json2Qt.git
 // ## How to Use:
 // QJsonObject jsonObj = parseJsonFile("test.json");
-// auto user = User(jsonObj);
+// auto cfgsensorlist = Cfgsensorlist(jsonObj);
 // ## Convert to json text
-// auto jsonObj = user.toQJsonObject();
+// auto jsonObj = cfgsensorlist.toQJsonObject();
 // QJsonDocument jsonDoc(jsonObj);
 // qDebug() << jsonDoc.toJson();
 
@@ -17,20 +17,16 @@
 #include <QJsonObject>
 #include <QJsonArray>
 
-//QJsonObject parseJsonFile(const QString& filename);
 
-// class User
-class User{
+// class Cfgsensorlist
+class Cfgsensorlist{
 public:
-    User() = default;
-    User(const QJsonObject &jsonObj);
+    Cfgsensorlist() = default;
+    Cfgsensorlist(const QJsonObject &jsonObj);
     QJsonObject toQJsonObject() const;
-    int userid;
-    QString username;
-    bool verified;
-    double weight;
-    QList<int> items;
-    QList<QString> games;
+    bool saveToJsonFile(const QString& filename);
+
+    FLELD(QList<Sensorlist*>,sensorlist)
 };
 
-#endif // USER_H
+#endif // CFGSENSORLIST_H

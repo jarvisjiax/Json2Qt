@@ -1,0 +1,406 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Example/Makefile	/^AR            = ar cqs$/;"	m
+AR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^AR            = ar cqs$/;"	m
+CC	Example/Makefile	/^CC            = gcc$/;"	m
+CC	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^CC            = gcc$/;"	m
+CFGSENSORLIST_H	Example/cfgsensorlist.h	2;"	d
+CFGSENSORXXX_H	cfgsensorxxx.h	2;"	d
+CFLAGS	Example/Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+CFLAGS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+CHANNEL_H	channel.h	2;"	d
+CHK_DIR_EXISTS	Example/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Example/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Example/Makefile	/^COPY          = cp -f$/;"	m
+COPY	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Example/Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_DIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Example/Makefile	/^COPY_FILE     = cp -f$/;"	m
+COPY_FILE	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	Example/Makefile	/^CXX           = g++$/;"	m
+CXX	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Example/Makefile	/^CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+CXXFLAGS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+Cfgsensorlist	Example/cfgsensorlist.cpp	/^Cfgsensorlist::Cfgsensorlist(const QJsonObject &jsonObj)$/;"	f	class:Cfgsensorlist
+Cfgsensorlist	Example/cfgsensorlist.h	/^class Cfgsensorlist{$/;"	c
+Cfgsensorxxx	cfgsensorxxx.cpp	/^Cfgsensorxxx::Cfgsensorxxx(const QJsonObject &jsonObj)$/;"	f	class:Cfgsensorxxx
+Cfgsensorxxx	cfgsensorxxx.h	/^class Cfgsensorxxx{$/;"	c
+Channel	channel.cpp	/^Channel::Channel(const QJsonObject &jsonObj)$/;"	f	class:Channel
+Channel	channel.h	/^class Channel{$/;"	c
+Channels	Example/SensorS401.cpp	/^Channels::Channels(const QJsonObject &jsonObj)$/;"	f	class:Channels
+Channels	Example/SensorS401.h	/^class Channels{$/;"	c
+Channels	channel.cpp	/^Channels::Channels(const QJsonObject &jsonObj)$/;"	f	class:Channels
+Channels	channel.h	/^class Channels{$/;"	c
+Constant	Example/SensorS401.cpp	/^Constant::Constant(const QJsonObject &jsonObj)$/;"	f	class:Constant
+Constant	Example/SensorS401.h	/^class Constant{$/;"	c
+Consumption	Example/SensorS401.cpp	/^Consumption::Consumption(const QJsonObject &jsonObj)$/;"	f	class:Consumption
+Consumption	Example/SensorS401.h	/^class Consumption{$/;"	c
+Consumptionunit	Example/SensorS401.cpp	/^Consumptionunit::Consumptionunit(const QJsonObject &jsonObj)$/;"	f	class:Consumptionunit
+Consumptionunit	Example/SensorS401.h	/^class Consumptionunit{$/;"	c
+DEFINES	Example/Makefile	/^DEFINES       = -DQT_CORE_LIB$/;"	m
+DEFINES	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DEFINES       = -DQT_QML_DEBUG -DQT_CORE_LIB$/;"	m
+DEL_DIR	Example/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Example/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Example/Makefile	/^DESTDIR       = $/;"	m
+DESTDIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DESTDIR       = $/;"	m
+DIST	Example/Makefile	/^DIST          = \/usr\/lib\/x86_64-linux-gnu\/qt5\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DIST	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DIST          = ..\/..\/..\/..\/Qt5.10.1\/5.10.1\/gcc_64\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DISTDIR	Example/Makefile	/^DISTDIR = \/home\/jr\/qtPJ\/S335\/Json2Qt\/Example\/.tmp\/JsonReader1.0.0$/;"	m
+DISTDIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DISTDIR = \/home\/jr\/qtPJ\/S335\/Json2Qt\/build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug\/.tmp\/JsonReader1.0.0$/;"	m
+DISTNAME	Example/Makefile	/^DISTNAME      = JsonReader1.0.0$/;"	m
+DISTNAME	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^DISTNAME      = JsonReader1.0.0$/;"	m
+EQ	Example/Makefile	/^EQ            = =$/;"	m
+Ethernet	Example/SensorS401.cpp	/^Ethernet::Ethernet(const QJsonObject &jsonObj)$/;"	f	class:Ethernet
+Ethernet	Example/SensorS401.h	/^class Ethernet{$/;"	c
+Flow	Example/SensorS401.cpp	/^Flow::Flow(const QJsonObject &jsonObj)$/;"	f	class:Flow
+Flow	Example/SensorS401.h	/^class Flow{$/;"	c
+Flowunit	Example/SensorS401.cpp	/^Flowunit::Flowunit(const QJsonObject &jsonObj)$/;"	f	class:Flowunit
+Flowunit	Example/SensorS401.h	/^class Flowunit{$/;"	c
+Gastype	Example/SensorS401.cpp	/^Gastype::Gastype(const QJsonObject &jsonObj)$/;"	f	class:Gastype
+Gastype	Example/SensorS401.h	/^class Gastype{$/;"	c
+INCPATH	Example/Makefile	/^INCPATH       = -I. -isystem \/usr\/include\/x86_64-linux-gnu\/qt5 -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtCore -I. -I\/usr\/lib\/x86_64-linux-gnu\/qt5\/mkspecs\/linux-g++$/;"	m
+INCPATH	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^INCPATH       = -I..\/Example -I. -I..\/..\/..\/..\/Qt5.10.1\/5.10.1\/gcc_64\/include -I..\/..\/..\/..\/Qt5.10.1\/5.10.1\/gcc_64\/include\/QtCore -I. -I..\/..\/..\/..\/Qt5.10.1\/5.10.1\/gcc_64\/mkspecs\/linux-g++$/;"	m
+INSTALL_DIR	Example/Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_DIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_FILE	Example/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Example/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+Innerdiameter	Example/SensorS401.cpp	/^Innerdiameter::Innerdiameter(const QJsonObject &jsonObj)$/;"	f	class:Innerdiameter
+Innerdiameter	Example/SensorS401.h	/^class Innerdiameter{$/;"	c
+LFLAGS	Example/Makefile	/^LFLAGS        = $/;"	m
+LFLAGS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^LFLAGS        = -Wl,-rpath,\/home\/jr\/Qt5.10.1\/5.10.1\/gcc_64\/lib$/;"	m
+LIBS	Example/Makefile	/^LIBS          = $(SUBLIBS) \/usr\/lib\/x86_64-linux-gnu\/libQt5Core.so -lpthread   $/;"	m
+LIBS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^LIBS          = $(SUBLIBS) -L\/home\/jr\/Qt5.10.1\/5.10.1\/gcc_64\/lib -lQt5Core -lpthread $/;"	m
+LINK	Example/Makefile	/^LINK          = g++$/;"	m
+LINK	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^LINK          = g++$/;"	m
+MAKEFILE	Example/Makefile	/^MAKEFILE      = Makefile$/;"	m
+MAKEFILE	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	Example/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Example/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^MOVE          = mv -f$/;"	m
+Mbus	Example/SensorS401.cpp	/^Mbus::Mbus(const QJsonObject &jsonObj)$/;"	f	class:Mbus
+Mbus	Example/SensorS401.h	/^class Mbus{$/;"	c
+Modbus	Example/SensorS401.cpp	/^Modbus::Modbus(const QJsonObject &jsonObj)$/;"	f	class:Modbus
+Modbus	Example/SensorS401.h	/^class Modbus{$/;"	c
+OBJECTS	Example/Makefile	/^OBJECTS       = cfgSensorlist.o \\$/;"	m
+OBJECTS	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^OBJECTS       = cfgsensorlist.o \\$/;"	m
+OBJECTS_DIR	Example/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QINSTALL	Example/Makefile	/^QINSTALL      = \/usr\/lib\/qt5\/bin\/qmake -install qinstall$/;"	m
+QINSTALL	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^QINSTALL      = \/home\/jr\/Qt5.10.1\/5.10.1\/gcc_64\/bin\/qmake -install qinstall$/;"	m
+QINSTALL_PROGRAM	Example/Makefile	/^QINSTALL_PROGRAM = \/usr\/lib\/qt5\/bin\/qmake -install qinstall -exe$/;"	m
+QINSTALL_PROGRAM	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^QINSTALL_PROGRAM = \/home\/jr\/Qt5.10.1\/5.10.1\/gcc_64\/bin\/qmake -install qinstall -exe$/;"	m
+QMAKE	Example/Makefile	/^QMAKE         = \/usr\/lib\/qt5\/bin\/qmake$/;"	m
+QMAKE	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^QMAKE         = \/home\/jr\/Qt5.10.1\/5.10.1\/gcc_64\/bin\/qmake$/;"	m
+QMAKE_TARGET	Example/Makefile	/^QMAKE_TARGET  = JsonReader$/;"	m
+QMAKE_TARGET	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^QMAKE_TARGET  = JsonReader$/;"	m
+RANLIB	Example/Makefile	/^RANLIB        = $/;"	m
+RANLIB	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^RANLIB        = $/;"	m
+Reftemperature	Example/SensorS401.cpp	/^Reftemperature::Reftemperature(const QJsonObject &jsonObj)$/;"	f	class:Reftemperature
+Reftemperature	Example/SensorS401.h	/^class Reftemperature{$/;"	c
+Revconsumption	Example/SensorS401.cpp	/^Revconsumption::Revconsumption(const QJsonObject &jsonObj)$/;"	f	class:Revconsumption
+Revconsumption	Example/SensorS401.h	/^class Revconsumption{$/;"	c
+SED	Example/Makefile	/^SED           = sed$/;"	m
+SED	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^SED           = sed$/;"	m
+SENSORS401_H	Example/SensorS401.h	2;"	d
+SOURCES	Example/Makefile	/^SOURCES       = cfgSensorlist.cpp \\$/;"	m
+SOURCES	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^SOURCES       = ..\/Example\/cfgsensorlist.cpp \\$/;"	m
+STRIP	Example/Makefile	/^STRIP         = strip$/;"	m
+STRIP	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Example/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+Sdi	Example/SensorS401.cpp	/^Sdi::Sdi(const QJsonObject &jsonObj)$/;"	f	class:Sdi
+Sdi	Example/SensorS401.h	/^class Sdi{$/;"	c
+Sensorlist	Example/cfgsensorlist.cpp	/^Sensorlist::Sensorlist(const QJsonObject &jsonObj)$/;"	f	class:Sensorlist
+Sensorlist	Example/cfgsensorlist.h	/^class Sensorlist{$/;"	c
+Sensorlist	cfgsensorxxx.cpp	/^Sensorlist::Sensorlist(const QJsonObject &jsonObj)$/;"	f	class:Sensorlist
+Sensorlist	cfgsensorxxx.h	/^class Sensorlist{$/;"	c
+Sensors401	Example/SensorS401.cpp	/^Sensors401::Sensors401(const QJsonObject &jsonObj)$/;"	f	class:Sensors401
+Sensors401	Example/SensorS401.h	/^class Sensors401{$/;"	c
+Settings	Example/SensorS401.cpp	/^Settings::Settings(const QJsonObject &jsonObj)$/;"	f	class:Settings
+Settings	Example/SensorS401.h	/^class Settings{$/;"	c
+TAR	Example/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Example/Makefile	/^TARGET        = JsonReader$/;"	m
+TARGET	build-JsonReader-Desktop_Qt_5_10_1_GCC_64bit-Debug/Makefile	/^TARGET        = JsonReader$/;"	m
+Temperature	Example/SensorS401.cpp	/^Temperature::Temperature(const QJsonObject &jsonObj)$/;"	f	class:Temperature
+Temperature	Example/SensorS401.h	/^class Temperature{$/;"	c
+USER_H	Example/user.h	2;"	d
+User	Example/user.cpp	/^User::User(const QJsonObject &jsonObj)$/;"	f	class:User
+User	Example/user.h	/^class User{$/;"	c
+Velocity	Example/SensorS401.cpp	/^Velocity::Velocity(const QJsonObject &jsonObj)$/;"	f	class:Velocity
+Velocity	Example/SensorS401.h	/^class Velocity{$/;"	c
+addr	Example/cfgsensorlist.h	/^    int addr;$/;"	m	class:Sensorlist
+address	Example/SensorS401.h	/^    int address;$/;"	m	class:Modbus
+bandrate	Example/SensorS401.h	/^    QString bandrate;$/;"	m	class:Modbus
+bandrate	Example/SensorS401.h	/^    QString bandrate;$/;"	m	class:Sdi
+bandrateindex	Example/SensorS401.h	/^    int bandrateindex;$/;"	m	class:Modbus
+bandrateindex	Example/SensorS401.h	/^    int bandrateindex;$/;"	m	class:Sdi
+channels	Example/SensorS401.h	/^    Channels channels;$/;"	m	class:Sensors401
+channels	Example/SensorS401.h	/^    QList<QString> channels;$/;"	m	class:Channels
+connetiontype	Example/SensorS401.h	/^    int connetiontype;$/;"	m	class:Sensors401
+constant	Example/SensorS401.h	/^    Constant constant;$/;"	m	class:Settings
+consumption	Example/SensorS401.h	/^    Consumption consumption;$/;"	m	class:Channels
+consumptionunit	Example/SensorS401.h	/^    Consumptionunit consumptionunit;$/;"	m	class:Settings
+databits	Example/SensorS401.h	/^    int databits;$/;"	m	class:Modbus
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Constant
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Consumption
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Consumptionunit
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Flow
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Flowunit
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Gastype
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Innerdiameter
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Reftemperature
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Revconsumption
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Temperature
+description	Example/SensorS401.h	/^    QString description;$/;"	m	class:Velocity
+description	Example/cfgsensorlist.h	/^    QString description;$/;"	m	class:Sensorlist
+dhcp	Example/SensorS401.h	/^    QString dhcp;$/;"	m	class:Ethernet
+dns	Example/SensorS401.h	/^    QString dns;$/;"	m	class:Ethernet
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Constant
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Consumption
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Consumptionunit
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Flow
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Flowunit
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Gastype
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Innerdiameter
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Reftemperature
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Revconsumption
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Temperature
+errorno	Example/SensorS401.h	/^    int errorno;$/;"	m	class:Velocity
+ethernet	Example/SensorS401.h	/^    Ethernet ethernet;$/;"	m	class:Sensors401
+flow	Example/SensorS401.h	/^    Flow flow;$/;"	m	class:Channels
+flowcontrol	Example/SensorS401.h	/^    QString flowcontrol;$/;"	m	class:Modbus
+flowunit	Example/SensorS401.h	/^    Flowunit flowunit;$/;"	m	class:Settings
+games	Example/user.h	/^    QList<QString> games;$/;"	m	class:User
+gastype	Example/SensorS401.h	/^    Gastype gastype;$/;"	m	class:Settings
+gateway	Example/SensorS401.h	/^    QString gateway;$/;"	m	class:Ethernet
+getAddr	cfgsensorxxx.cpp	/^int Sensorlist::getAddr() const$/;"	f	class:Sensorlist
+getChannels	channel.cpp	/^Channels Channel::getChannels() const$/;"	f	class:Channel
+getConnecttype	cfgsensorxxx.cpp	/^int Sensorlist::getConnecttype() const$/;"	f	class:Sensorlist
+getDescription	cfgsensorxxx.cpp	/^QString Sensorlist::getDescription() const$/;"	f	class:Sensorlist
+getDescription	channel.cpp	/^QString Channels::getDescription() const$/;"	f	class:Channels
+getDeviceid	cfgsensorxxx.cpp	/^int Sensorlist::getDeviceid() const$/;"	f	class:Sensorlist
+getErrorno	channel.cpp	/^int Channels::getErrorno() const$/;"	f	class:Channels
+getIndex	cfgsensorxxx.cpp	/^int Sensorlist::getIndex() const$/;"	f	class:Sensorlist
+getIpdaddr	cfgsensorxxx.cpp	/^QString Sensorlist::getIpdaddr() const$/;"	f	class:Sensorlist
+getMaximum	channel.cpp	/^int Channels::getMaximum() const$/;"	f	class:Channels
+getMeatype	cfgsensorxxx.cpp	/^int Sensorlist::getMeatype() const$/;"	f	class:Sensorlist
+getMinimum	channel.cpp	/^int Channels::getMinimum() const$/;"	f	class:Channels
+getName	cfgsensorxxx.cpp	/^QString Sensorlist::getName() const$/;"	f	class:Sensorlist
+getOutput	channel.cpp	/^bool Channels::getOutput() const$/;"	f	class:Channels
+getResolution	channel.cpp	/^int Channels::getResolution() const$/;"	f	class:Channels
+getSensorlist	cfgsensorxxx.cpp	/^Sensorlist Cfgsensorxxx::getSensorlist() const$/;"	f	class:Cfgsensorxxx
+getSn	cfgsensorxxx.cpp	/^QString Sensorlist::getSn() const$/;"	f	class:Sensorlist
+getType	channel.cpp	/^QString Channels::getType() const$/;"	f	class:Channels
+getTypeindex	channel.cpp	/^int Channels::getTypeindex() const$/;"	f	class:Channels
+getUnit	channel.cpp	/^QString Channels::getUnit() const$/;"	f	class:Channels
+getUnitindex	channel.cpp	/^int Channels::getUnitindex() const$/;"	f	class:Channels
+index	Example/cfgsensorlist.h	/^    int index;$/;"	m	class:Sensorlist
+innerdiameter	Example/SensorS401.h	/^    Innerdiameter innerdiameter;$/;"	m	class:Settings
+input	Example/SensorS401.h	/^    QString input;$/;"	m	class:Constant
+input	Example/SensorS401.h	/^    QString input;$/;"	m	class:Consumptionunit
+input	Example/SensorS401.h	/^    QString input;$/;"	m	class:Flowunit
+input	Example/SensorS401.h	/^    QString input;$/;"	m	class:Gastype
+input	Example/SensorS401.h	/^    QString input;$/;"	m	class:Innerdiameter
+input	Example/SensorS401.h	/^    QString input;$/;"	m	class:Reftemperature
+ipaddr	Example/SensorS401.h	/^    QString ipaddr;$/;"	m	class:Ethernet
+ipdaddr	Example/cfgsensorlist.h	/^    QString ipdaddr;$/;"	m	class:Sensorlist
+items	Example/user.h	/^    QList<int> items;$/;"	m	class:User
+main	Example/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Constant
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Consumption
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Consumptionunit
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Flow
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Flowunit
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Gastype
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Innerdiameter
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Reftemperature
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Revconsumption
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Temperature
+maximum	Example/SensorS401.h	/^    int maximum;$/;"	m	class:Velocity
+mbus	Example/SensorS401.h	/^    Mbus mbus;$/;"	m	class:Sensors401
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Constant
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Consumption
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Consumptionunit
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Flow
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Flowunit
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Gastype
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Innerdiameter
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Reftemperature
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Revconsumption
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Temperature
+minimum	Example/SensorS401.h	/^    int minimum;$/;"	m	class:Velocity
+modbus	Example/SensorS401.h	/^    Modbus modbus;$/;"	m	class:Sensors401
+mode	Example/SensorS401.h	/^    QString mode;$/;"	m	class:Modbus
+modeindex	Example/SensorS401.h	/^    int modeindex;$/;"	m	class:Modbus
+name	Example/SensorS401.h	/^    QString name;$/;"	m	class:Sensors401
+name	Example/cfgsensorlist.h	/^    QString name;$/;"	m	class:Sensorlist
+netmask	Example/SensorS401.h	/^    QString netmask;$/;"	m	class:Ethernet
+options	Example/SensorS401.h	/^    QList<QString> options;$/;"	m	class:Flowunit
+optionsindex	Example/SensorS401.h	/^    QList<int> optionsindex;$/;"	m	class:Flowunit
+output	Example/SensorS401.h	/^    bool output;$/;"	m	class:Consumption
+output	Example/SensorS401.h	/^    bool output;$/;"	m	class:Flow
+output	Example/SensorS401.h	/^    bool output;$/;"	m	class:Revconsumption
+output	Example/SensorS401.h	/^    bool output;$/;"	m	class:Temperature
+output	Example/SensorS401.h	/^    bool output;$/;"	m	class:Velocity
+parity	Example/SensorS401.h	/^    QString parity;$/;"	m	class:Modbus
+parseJsonFile	Example/main.cpp	/^QJsonObject parseJsonFile(const QString& filename)$/;"	f
+parseJsonFile	cfgsensorxxx.cpp	/^QJsonObject parseJsonFile(const QString& filename)$/;"	f
+parseJsonFile	channel.cpp	/^QJsonObject parseJsonFile(const QString& filename)$/;"	f
+parseJsonFile	parseJsonFile.cpp	/^QJsonObject parseJsonFile(const QString& filename)$/;"	f
+port	Example/SensorS401.h	/^    int port;$/;"	m	class:Ethernet
+reftemperature	Example/SensorS401.h	/^    Reftemperature reftemperature;$/;"	m	class:Settings
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Constant
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Consumption
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Consumptionunit
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Flow
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Flowunit
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Gastype
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Innerdiameter
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Reftemperature
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Revconsumption
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Temperature
+resolution	Example/SensorS401.h	/^    int resolution;$/;"	m	class:Velocity
+revconsumption	Example/SensorS401.h	/^    Revconsumption revconsumption;$/;"	m	class:Channels
+saveToJsonFile	Example/SensorS401.cpp	/^bool Channels::saveToJsonFile(const QString& filename)$/;"	f	class:Channels
+saveToJsonFile	Example/SensorS401.cpp	/^bool Constant::saveToJsonFile(const QString& filename)$/;"	f	class:Constant
+saveToJsonFile	Example/SensorS401.cpp	/^bool Consumption::saveToJsonFile(const QString& filename)$/;"	f	class:Consumption
+saveToJsonFile	Example/SensorS401.cpp	/^bool Consumptionunit::saveToJsonFile(const QString& filename)$/;"	f	class:Consumptionunit
+saveToJsonFile	Example/SensorS401.cpp	/^bool Ethernet::saveToJsonFile(const QString& filename)$/;"	f	class:Ethernet
+saveToJsonFile	Example/SensorS401.cpp	/^bool Flow::saveToJsonFile(const QString& filename)$/;"	f	class:Flow
+saveToJsonFile	Example/SensorS401.cpp	/^bool Flowunit::saveToJsonFile(const QString& filename)$/;"	f	class:Flowunit
+saveToJsonFile	Example/SensorS401.cpp	/^bool Gastype::saveToJsonFile(const QString& filename)$/;"	f	class:Gastype
+saveToJsonFile	Example/SensorS401.cpp	/^bool Innerdiameter::saveToJsonFile(const QString& filename)$/;"	f	class:Innerdiameter
+saveToJsonFile	Example/SensorS401.cpp	/^bool Mbus::saveToJsonFile(const QString& filename)$/;"	f	class:Mbus
+saveToJsonFile	Example/SensorS401.cpp	/^bool Modbus::saveToJsonFile(const QString& filename)$/;"	f	class:Modbus
+saveToJsonFile	Example/SensorS401.cpp	/^bool Reftemperature::saveToJsonFile(const QString& filename)$/;"	f	class:Reftemperature
+saveToJsonFile	Example/SensorS401.cpp	/^bool Revconsumption::saveToJsonFile(const QString& filename)$/;"	f	class:Revconsumption
+saveToJsonFile	Example/SensorS401.cpp	/^bool Sdi::saveToJsonFile(const QString& filename)$/;"	f	class:Sdi
+saveToJsonFile	Example/SensorS401.cpp	/^bool Sensors401::saveToJsonFile(const QString& filename)$/;"	f	class:Sensors401
+saveToJsonFile	Example/SensorS401.cpp	/^bool Settings::saveToJsonFile(const QString& filename)$/;"	f	class:Settings
+saveToJsonFile	Example/SensorS401.cpp	/^bool Temperature::saveToJsonFile(const QString& filename)$/;"	f	class:Temperature
+saveToJsonFile	Example/SensorS401.cpp	/^bool Velocity::saveToJsonFile(const QString& filename)$/;"	f	class:Velocity
+saveToJsonFile	Example/cfgsensorlist.cpp	/^bool Cfgsensorlist::saveToJsonFile(const QString& filename)$/;"	f	class:Cfgsensorlist
+saveToJsonFile	Example/cfgsensorlist.cpp	/^bool Sensorlist::saveToJsonFile(const QString& filename)$/;"	f	class:Sensorlist
+saveToJsonFile	cfgsensorxxx.cpp	/^bool Cfgsensorxxx::saveToJsonFile(const QString& filename)$/;"	f	class:Cfgsensorxxx
+saveToJsonFile	cfgsensorxxx.cpp	/^bool Sensorlist::saveToJsonFile(const QString& filename)$/;"	f	class:Sensorlist
+saveToJsonFile	channel.cpp	/^bool Channel::saveToJsonFile(const QString& filename)$/;"	f	class:Channel
+saveToJsonFile	channel.cpp	/^bool Channels::saveToJsonFile(const QString& filename)$/;"	f	class:Channels
+sdi	Example/SensorS401.h	/^    Sdi sdi;$/;"	m	class:Sensors401
+sensorlist	Example/cfgsensorlist.h	/^    QList<Sensorlist> sensorlist;$/;"	m	class:Cfgsensorlist
+setAddr	cfgsensorxxx.cpp	/^void Sensorlist::setAddr(const int &addr)$/;"	f	class:Sensorlist
+setChannels	channel.cpp	/^void Channel::setChannels(const Channels &channels)$/;"	f	class:Channel
+setConnecttype	cfgsensorxxx.cpp	/^void Sensorlist::setConnecttype(const int &connecttype)$/;"	f	class:Sensorlist
+setDescription	cfgsensorxxx.cpp	/^void Sensorlist::setDescription(const QString &description)$/;"	f	class:Sensorlist
+setDescription	channel.cpp	/^void Channels::setDescription(const QString &description)$/;"	f	class:Channels
+setDeviceid	cfgsensorxxx.cpp	/^void Sensorlist::setDeviceid(const int &deviceid)$/;"	f	class:Sensorlist
+setErrorno	channel.cpp	/^void Channels::setErrorno(const int &errorno)$/;"	f	class:Channels
+setIndex	cfgsensorxxx.cpp	/^void Sensorlist::setIndex(const int &index)$/;"	f	class:Sensorlist
+setIpdaddr	cfgsensorxxx.cpp	/^void Sensorlist::setIpdaddr(const QString &ipdaddr)$/;"	f	class:Sensorlist
+setMaximum	channel.cpp	/^void Channels::setMaximum(const int &maximum)$/;"	f	class:Channels
+setMeatype	cfgsensorxxx.cpp	/^void Sensorlist::setMeatype(const int &meatype)$/;"	f	class:Sensorlist
+setMinimum	channel.cpp	/^void Channels::setMinimum(const int &minimum)$/;"	f	class:Channels
+setName	cfgsensorxxx.cpp	/^void Sensorlist::setName(const QString &name)$/;"	f	class:Sensorlist
+setOutput	channel.cpp	/^void Channels::setOutput(const bool &output)$/;"	f	class:Channels
+setResolution	channel.cpp	/^void Channels::setResolution(const int &resolution)$/;"	f	class:Channels
+setSensorlist	cfgsensorxxx.cpp	/^void Cfgsensorxxx::setSensorlist(const Sensorlist &sensorlist)$/;"	f	class:Cfgsensorxxx
+setSn	cfgsensorxxx.cpp	/^void Sensorlist::setSn(const QString &sn)$/;"	f	class:Sensorlist
+setType	channel.cpp	/^void Channels::setType(const QString &type)$/;"	f	class:Channels
+setTypeindex	channel.cpp	/^void Channels::setTypeindex(const int &typeindex)$/;"	f	class:Channels
+setUnit	channel.cpp	/^void Channels::setUnit(const QString &unit)$/;"	f	class:Channels
+setUnitindex	channel.cpp	/^void Channels::setUnitindex(const int &unitindex)$/;"	f	class:Channels
+settings	Example/SensorS401.h	/^    QList<QString> settings;$/;"	m	class:Settings
+settings	Example/SensorS401.h	/^    Settings settings;$/;"	m	class:Sensors401
+sn	Example/cfgsensorlist.h	/^    QString sn;$/;"	m	class:Sensorlist
+stopbits	Example/SensorS401.h	/^    int stopbits;$/;"	m	class:Modbus
+temperature	Example/SensorS401.h	/^    Temperature temperature;$/;"	m	class:Channels
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Channels::toQJsonObject() const$/;"	f	class:Channels
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Constant::toQJsonObject() const$/;"	f	class:Constant
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Consumption::toQJsonObject() const$/;"	f	class:Consumption
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Consumptionunit::toQJsonObject() const$/;"	f	class:Consumptionunit
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Ethernet::toQJsonObject() const$/;"	f	class:Ethernet
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Flow::toQJsonObject() const$/;"	f	class:Flow
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Flowunit::toQJsonObject() const$/;"	f	class:Flowunit
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Gastype::toQJsonObject() const$/;"	f	class:Gastype
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Innerdiameter::toQJsonObject() const$/;"	f	class:Innerdiameter
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Mbus::toQJsonObject() const$/;"	f	class:Mbus
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Modbus::toQJsonObject() const$/;"	f	class:Modbus
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Reftemperature::toQJsonObject() const$/;"	f	class:Reftemperature
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Revconsumption::toQJsonObject() const$/;"	f	class:Revconsumption
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Sdi::toQJsonObject() const$/;"	f	class:Sdi
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Sensors401::toQJsonObject() const$/;"	f	class:Sensors401
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Settings::toQJsonObject() const$/;"	f	class:Settings
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Temperature::toQJsonObject() const$/;"	f	class:Temperature
+toQJsonObject	Example/SensorS401.cpp	/^QJsonObject Velocity::toQJsonObject() const$/;"	f	class:Velocity
+toQJsonObject	Example/cfgsensorlist.cpp	/^QJsonObject Cfgsensorlist::toQJsonObject() const$/;"	f	class:Cfgsensorlist
+toQJsonObject	Example/cfgsensorlist.cpp	/^QJsonObject Sensorlist::toQJsonObject() const$/;"	f	class:Sensorlist
+toQJsonObject	Example/user.cpp	/^QJsonObject User::toQJsonObject() const$/;"	f	class:User
+toQJsonObject	cfgsensorxxx.cpp	/^QJsonObject Cfgsensorxxx::toQJsonObject() const$/;"	f	class:Cfgsensorxxx
+toQJsonObject	cfgsensorxxx.cpp	/^QJsonObject Sensorlist::toQJsonObject() const$/;"	f	class:Sensorlist
+toQJsonObject	channel.cpp	/^QJsonObject Channel::toQJsonObject() const$/;"	f	class:Channel
+toQJsonObject	channel.cpp	/^QJsonObject Channels::toQJsonObject() const$/;"	f	class:Channels
+total	Example/cfgsensorlist.h	/^    int total;$/;"	m	class:Cfgsensorlist
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Constant
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Consumption
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Consumptionunit
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Flow
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Flowunit
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Gastype
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Innerdiameter
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Reftemperature
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Revconsumption
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Temperature
+type	Example/SensorS401.h	/^    QString type;$/;"	m	class:Velocity
+type	Example/cfgsensorlist.h	/^    QString type;$/;"	m	class:Sensorlist
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Constant
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Consumption
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Consumptionunit
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Flow
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Flowunit
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Gastype
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Innerdiameter
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Reftemperature
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Revconsumption
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Temperature
+typeindex	Example/SensorS401.h	/^    int typeindex;$/;"	m	class:Velocity
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Constant
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Consumption
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Consumptionunit
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Flow
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Flowunit
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Gastype
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Innerdiameter
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Reftemperature
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Revconsumption
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Temperature
+unit	Example/SensorS401.h	/^    QString unit;$/;"	m	class:Velocity
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Constant
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Consumption
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Consumptionunit
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Flow
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Flowunit
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Gastype
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Innerdiameter
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Reftemperature
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Revconsumption
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Temperature
+unitindex	Example/SensorS401.h	/^    int unitindex;$/;"	m	class:Velocity
+userid	Example/user.h	/^    int userid;$/;"	m	class:User
+username	Example/user.h	/^    QString username;$/;"	m	class:User
+velocity	Example/SensorS401.h	/^    Velocity velocity;$/;"	m	class:Channels
+verified	Example/user.h	/^    bool verified;$/;"	m	class:User
+version	Example/SensorS401.h	/^    QString version;$/;"	m	class:Mbus
+version	Example/SensorS401.h	/^    QString version;$/;"	m	class:Modbus
+version	Example/SensorS401.h	/^    QString version;$/;"	m	class:Sdi
+weight	Example/user.h	/^    double weight;$/;"	m	class:User

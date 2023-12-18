@@ -1,0 +1,14 @@
+{
+	"sensorlist":
+	{
+		"index": 1,
+		"name": "S430",
+		"description": "S430",
+		"sn": "12345679",
+		"deviceID":1,
+		"connecttype": 1,
+		"meatype":0,
+        "addr":1,
+        "ipdaddr": "192.168.1.101"
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "channels":
+        {
+            "Resolution": 1,
+            "description": "Consumption",
+            "errorno": -9999,
+            "maximum": 1000,
+            "minimum": 0,
+            "output": true,
+            "type": "float",
+            "typeindex": 0,
+            "unit": "m3",
+            "unitindex": 0
+        }
+    }
