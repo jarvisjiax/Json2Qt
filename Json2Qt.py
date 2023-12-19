@@ -1,227 +1,3 @@
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 17:52:10
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 17:52:10
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 17:52:03
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 17:52:03
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 17:39:16
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 17:39:16
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 17:18:01
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 17:18:01
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 12:53:11
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 12:53:11
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 12:45:09
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 12:45:09
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-18 12:37:07
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-18 12:37:07
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 18:17:32
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 18:17:32
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 18:02:44
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 18:02:44
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 18:01:05
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 18:01:05
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 18:00:23
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 18:00:23
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:53:58
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:53:58
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:52:50
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:52:50
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:51:56
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:51:56
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:51:09
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:51:09
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:50:45
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:50:45
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:47:32
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:47:32
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:41:57
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:41:57
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:41:21
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:41:21
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:39:59
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:39:59
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:39:52
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:39:52
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:36:07
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:36:07
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:32:06
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:32:06
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:27:01
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:27:01
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
-
-'''
-@Author                : jarvis<1405191257@qq.com>
-@CreatedDate           : 2023-12-15 17:25:21
-@LastEditors           : jarvis<1405191257@qq.com>
-@LastEditDate          : 2023-12-15 17:25:21
-@FilePath              : Json2Qt/Json2Qt.py
-@CopyRight             : Jarvis<1405191257@qq.com>
-'''
 
 
 '''
@@ -288,11 +64,11 @@ class QtProperty:
 
     def typeStr(self)->str:
         '回傳屬性的型別(QList<int>,int,...)'
-        print("=======================")
-        print(self.name)
-        print(self.isClass())
-        print(self.baseType)
-        print(type(self.baseType))
+        # print("=======================")
+        # print(self.name)
+        # print(self.isClass())
+        # print(self.baseType)
+        # print(type(self.baseType))
         baseTypeName = self.capitalStyle(self.name) if self.isClass() else self.baseType
         if self.isClass():
             return f'QList<{baseTypeName}*>' if self.islist else baseTypeName
@@ -434,14 +210,18 @@ class Generator:
     @staticmethod
     def declareClassConstructor(classname:str):
         return Generator.indent + f'{classname}(const QJsonObject &jsonObj);\n'
-
+    
+    @staticmethod
+    def declareClassConstructorstr(classname:str):
+        return Generator.indent + f'{classname}(const QString &filename);\n'
+    
     @staticmethod
     def declareClassQJsonObjectFunc():
         return Generator.indent + 'QJsonObject toQJsonObject() const;\n'
     
     @staticmethod
     def declareClasssavetofile():
-        return Generator.indent + 'bool saveToJsonFile(const QString& filename);\n'
+        return Generator.indent + 'bool saveToJsonFile();\n'
 
     @staticmethod
     def defineSetFunc(classname:str,prop:QtProperty):
@@ -482,7 +262,53 @@ class Generator:
                 jsonValue = f'{QtProperty.capitalStyle(prop.name)}({jsonValue})'
             ans += indent + f'this->{QtProperty.lowerStyle(prop.name)} = {jsonValue};\n'
         return ans
+    
+    @staticmethod
+    def definePropertyConverterstr(prop:QtProperty):
+        indent = Generator.indent
+        ## add commit
 
+        ans = indent + f'// parse {prop.typeStr()} {QtProperty.lowerStyle(prop.name)}\n'
+        if prop.isQList():
+            jsonArray = f'jsonObj["{prop.name}"].toArray()'
+            arrayName = QtProperty.lowerStyle(prop.name) + 'Array'
+            ans += indent + f'QJsonArray {arrayName} = {jsonArray};\n'
+            ans += indent + f'for(auto i:{arrayName})' + '{\n'
+            arrayItem = f'i.{QtProperty.converterFunc(prop.baseType)}'
+            if prop.isClass():
+                arrayItem = f'new {QtProperty.capitalStyle(prop.name)}({arrayItem})'
+            ans += indent*2 + f'this->{QtProperty.lowerStyle(prop.name)}.append({arrayItem});\n'
+            ans += indent + '}\n'
+        else:
+            jsonValue = f'jsonObj["{prop.name}"].{QtProperty.converterFunc(prop.baseType)}'
+            if prop.isClass(): # if jsonValue is Object, we need assign to class constructer
+                jsonValue = f'{QtProperty.capitalStyle(prop.name)}({jsonValue})'
+            ans += indent + f'this->{QtProperty.lowerStyle(prop.name)} = {jsonValue};\n'
+        return ans
+    
+    @staticmethod
+    def definePropertyrefresh(prop:QtProperty):
+        indent = Generator.indent
+        ## add commit
+
+        ans = indent + f'// parse {prop.typeStr()} {QtProperty.lowerStyle(prop.name)}\n'
+        if prop.isQList():
+            jsonArray = f'jsonObj["{prop.name}"].toArray()'
+            arrayName = QtProperty.lowerStyle(prop.name) + 'Array'
+            ans += indent + f'QJsonArray {arrayName} = {jsonArray};\n'
+            ans += indent + f'for(auto i:{arrayName})' + '{\n'
+            arrayItem = f'i.{QtProperty.converterFunc(prop.baseType)}'
+            if prop.isClass():
+                arrayItem = f'new {QtProperty.capitalStyle(prop.name)}({arrayItem})'
+            ans += indent*2 + f'this->{QtProperty.lowerStyle(prop.name)}.append({arrayItem});\n'
+            ans += indent + '}\n'
+        else:
+            jsonValue = f'jsonObj["{prop.name}"].{QtProperty.converterFunc(prop.baseType)}'
+            if prop.isClass(): # if jsonValue is Object, we need assign to class constructer
+                jsonValue = f'{QtProperty.capitalStyle(prop.name)}({jsonValue})'
+            ans += indent + f'this->{QtProperty.lowerStyle(prop.name)} = {jsonValue};\n'
+        return ans    
+    
     @staticmethod
     def defineClassConstructor(qclass:QtClass):
         '建立目標類別的建構函式'
@@ -496,7 +322,38 @@ class Generator:
             ans += Generator.definePropertyConverter(qprop)
         ans += '}\n'
         return ans
-
+    
+    @staticmethod
+    def defineClassConstructorstr(qclass:QtClass):
+        '建立目標類別的建構函式'
+        # add commit
+        ans = f'// construct {qclass.name} from QStringfile,not \n'
+        # add function declare
+        ans += f'{qclass.name}::{qclass.name}(const QString &filename)\n'
+        ans += '{\n'
+        ans += Generator.indent + 'cfgfilename = filename;\n'
+        ans += Generator.indent + 'QJsonObject jsonObj = Utility::parseJsonFile(filename);\n'
+        # iterate all properties
+        for qprop in qclass.attributes:
+            ans += Generator.definePropertyConverterstr(qprop)
+        ans += '}\n'
+        return ans
+    
+    @staticmethod
+    def defineClassrefresh(qclass:QtClass):
+        '建立目標類別的建構函式'
+        # add commit
+        ans = '// construct refresh,not \n'
+        # add function declare
+        ans += f'void {qclass.name}::refresh()\n'
+        ans += '{\n'
+        ans += Generator.indent + 'QJsonObject jsonObj = Utility::parseJsonFile(cfgfilename);\n'
+        # iterate all properties
+        for qprop in qclass.attributes:
+            ans += Generator.definePropertyrefresh(qprop)
+        ans += '}\n'
+        return ans
+    
     @staticmethod
     def defineClassQJsonObjectFunc(qclass:QtClass):
         '將類別轉換成QJsonObject資料'
@@ -526,20 +383,20 @@ class Generator:
     def defineClasssavetofileFunc(qclass:QtClass):
         '將類別轉換成QJsonObject資料'
         indent = Generator.indent
-        ans = f'bool {qclass.name}::saveToJsonFile(const QString& filename)\n'
+        ans = f'bool {qclass.name}::saveToJsonFile()\n'
         ans += '{\n'
         ans += indent + 'QJsonObject rootObj = this->toQJsonObject();\n'
         ans += indent + 'QJsonDocument document;\n'
         ans += indent + ' document.setObject(rootObj);\n'
         ans += indent + 'QByteArray byte_array = document.toJson(QJsonDocument::Indented);\n'
 
-        ans += indent + 'QFile file1(filename);\n'
+        ans += indent + 'QFile file1(cfgfilename);\n'
         ans += indent + 'if (!file1.exists()) {\n'
-        ans += indent + '    qWarning("File does not exist: %s", filename.toStdString().c_str());\n'
+        ans += indent + '    qWarning("File does not exist: %s", cfgfilename.toStdString().c_str());\n'
         ans += indent + '    return false;\n'
         ans += indent + '}\n'
         ans += indent + 'if(!file1.open(QIODevice::WriteOnly)){\n'
-        ans += indent + '    auto msg = QString("File1 (%1) open fail: %2.").arg(filename,file1.errorString());\n'
+        ans += indent + '    auto msg = QString("File1 (%1) open fail: %2.").arg(cfgfilename,file1.errorString());\n'
         ans += indent + '    qFatal("%s",msg.toStdString().c_str());\n'
         ans += indent + '    return false;\n'
         ans += indent + '}\n'
@@ -560,12 +417,15 @@ class Generator:
         ## add class constructor
         ans += Generator.indent + f'{qclass.name}() = default;\n'
         ans += Generator.declareClassConstructor(qclass.name)
+        ans += Generator.declareClassConstructorstr(qclass.name)
+        ans += Generator.indent + 'void refresh();\n'
         ## declare class to QJsonObject function
         ans += Generator.declareClassQJsonObjectFunc()
         ## declare class to savetofile function
         ans += Generator.declareClasssavetofile()
         ## declare property and Read Write function 
         ans += "\n"
+        ans += Generator.indent + 'FIELD(QString,cfgfilename)\n'
         if isPrivateMember:
             for qprop in qclass.attributes:
                 ans += Generator.indent + Generator.declareProperty(qprop)
@@ -575,6 +435,9 @@ class Generator:
     @staticmethod
     def defineClass(qclass:QtClass,isPrivateMember:bool = False):
         ans = Generator.defineClassConstructor(qclass) + '\n'
+        ans += Generator.defineClassConstructorstr(qclass) + '\n'
+        ans += Generator.defineClassrefresh(qclass) + '\n'
+
         ## declare class to QJsonObject function
         ans += Generator.defineClassQJsonObjectFunc(qclass) + '\n'
         ans += Generator.defineClasssavetofileFunc(qclass) + '\n'
@@ -626,7 +489,14 @@ class Generator:
         ans += '#include <QJsonDocument>\n'
         ans += '#include <QJsonParseError>\n'
         ans += '#include <QJsonObject>\n'
+        ans += '#include "common/def.h"\n'
         ans += '#include <QJsonArray>\n\n'
+        ans += '#include "utilities/utility.h"\n'
+        for qclass in self.classList:
+            print (qclass.name)
+            print (qclass.attributes[0].isClass())
+            if qclass.attributes[0].isClass():
+                ans += f'#include \"{qclass.attributes[0].name.lower()}.h\"\n\n'
         # declare Json file parse func
         # ans += 'QJsonObject parseJsonFile(const QString& filename);\n'
         # declare classes
@@ -642,7 +512,7 @@ class Generator:
         # Add include
         ans = f'#include "{self.name}.h"\n\n'
         # define json parse File function
-        ans +=  Generator.defineJsonFileParseFunc()\
+        # ans +=  Generator.defineJsonFileParseFunc()
         # define classes function
         ans += '\n'
         for qclass in self.classList:
