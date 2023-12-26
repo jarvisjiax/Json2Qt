@@ -1,0 +1,100 @@
+{
+    "settings": {
+        "Constant": {
+            "Resolution": 1,
+            "description": "Constant",
+            "errorno": -9999,
+            "input": "lineEdit",
+            "maximum": 1000,
+            "minimum": 0,
+            "type": "float",
+            "typeindex": 0,
+            "unit": "",
+            "unitindex": 0
+        },
+        "Reftemperature": {
+            "Resolution": 1,
+            "description": "Reference Temperature",
+            "errorno": -9999,
+            "input": "lineEdit",
+            "maximum": 1000,
+            "minimum": 0,
+            "type": "float",
+            "typeindex": 0,
+            "unit": "",
+            "unitindex": 0
+        },
+        "consumptionUnit": {
+            "Resolution": 1,
+            "description": "Consumption Unit",
+            "errorno": -9999,
+            "input": "comboBox",
+            "maximum": 1000,
+            "minimum": 0,
+            "type": "string",
+            "typeindex": 0,
+            "unit": "",
+            "unitindex": 0
+        },
+        "flowunit": {
+            "Resolution": 1,
+            "description": "Flow Unit",
+            "errorno": -9999,
+            "input": "comboBox",
+            "maximum": 1000,
+            "minimum": 0,
+            "options": [
+                "Air",
+                "N2",
+                "Ar",
+                "CO2",
+                " He",
+                "H2 "
+            ],
+            "optionsindex": [
+                1,
+                2,
+                0,
+                5,
+                6,
+                7
+            ],
+            "type": "string",
+            "typeindex": 0,
+            "unit": "",
+            "unitindex": 0
+        },
+        "gastype": {
+            "Resolution": 1,
+            "description": "Gas Type",
+            "errorno": -9999,
+            "input": "comboBox",
+            "maximum": 1000,
+            "minimum": 0,
+            "type": "string",
+            "typeindex": 0,
+            "unit": "",
+            "unitindex": 0
+        },
+        "innerdiameter": {
+            "Resolution": 1,
+            "description": "Inner Diameter",
+            "errorno": -9999,
+            "input": "lineEdit",
+            "maximum": 1000,
+            "minimum": 0,
+            "type": "float",
+            "typeindex": 0,
+            "unit": "mm",
+            "unitindex": 0
+        },
+        "settings": [
+            "innerdiameter",
+            "gastype",
+            "Constant",
+            "Reftemperature",
+            "flowunit",
+            "consumptionUnit"
+        ]
+    }
+}

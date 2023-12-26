@@ -1,0 +1,30 @@
+{
+    "rs485m0":{
+        "Id":0,
+        "protocol":1,             
+        "address":1,              
+        "baudrate":19200,             
+        "baudrateIndex":4,        
+        "parityFrameIndex":3,     
+        "responseTimeout":10,      
+        "responseDelay":3,        
+        "interframeSpacingUs":2005,  
+        "interframeSpacingChar":7,
+        "transmissionMode":0,     
+        "control":40961              
+    },
+    "rs485s0":{
+        "Id":0,
+        "protocol":1,             
+        "address":1,              
+        "baudrate":19200,             
+        "baudrateIndex":4,        
+        "parityFrameIndex":3,     
+        "responseTimeout":10,      
+        "responseDelay":3,        
+        "interframeSpacingUs":2005,  
+        "interframeSpacingChar":7,
+        "transmissionMode":0,     
+        "control":40961              
+    }     
+}

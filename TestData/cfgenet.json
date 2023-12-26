@@ -1,0 +1,14 @@
+{
+    "defaultIpAddr":"192.168.8.8",
+    "macAddr": "01:02:03:04:05:06" ,        
+    "ipAddr": "192.168.8.8",
+    "subNetMaskAddr":"255.255.255.0",    
+    "defaultGatewayAddr":"192.168.8.1",
+    "hostDomainName":"www.test.com",
+    "hostipAddr":"127.0.0.1",    
+    "hostPort":1883,          
+    "protocol":0,         
+    "isTransmitting":1,
+    "mqttusername":"username",
+    "mqttpassword":"password"
+}

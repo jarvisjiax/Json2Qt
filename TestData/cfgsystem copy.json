@@ -1,0 +1,19 @@
+{
+	"DeviceName": "S332",
+	"DeviceType": "S332",
+	"DeviceID": "1",
+	"HwVersion": "1.0.0",
+	"FWVersion": "1.0.0",
+	"language": "zh-cn",
+	"SerialNo": "12345678",
+	"ProdutNo": "1234567890"
+}
+
+// productNo description
+// 12:deivetype(S331/S332/S335)
+// 3:platform(AM335x/imx6ull)
+// 4:userinterface(320x240pix LCD/800*480pix LCD)
+// 5:4g type(YUGA/HUAWEI/ZHONGXIN)
+// 67:hardversion(1.0)
+// 8:input type(rCapacitive touch/resistive touch/keyboard)
+// 90:reserve

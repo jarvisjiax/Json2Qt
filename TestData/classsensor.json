@@ -1,0 +1,27 @@
+{
+    "sensorid":0,
+    "description":"401",
+    "classchannel":[
+        {
+            "DValue":12.34,
+            "SValue":"12.34",
+            "Resolution":0,
+            "Unitindex":0,		
+            "Status":0,		
+            "ValueType":0,
+            "channelid":0,
+            "channeldescription":"test"
+        },
+        {
+            "DValue":12.34,
+            "SValue":"12.34",
+            "Resolution":0,
+            "Unitindex":0,		
+            "Status":0,		
+            "ValueType":0,
+            "channelid":0,
+            "channeldescription":"test"
+        }
+    ]
+
+}

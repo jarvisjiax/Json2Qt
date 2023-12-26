@@ -222,7 +222,11 @@ class Generator:
     @staticmethod
     def declareClasssavetofile():
         return Generator.indent + 'bool saveToJsonFile();\n'
-
+    
+    @staticmethod
+    def declareClasstostring():
+        return Generator.indent + 'QString tostring();\n'
+    
     @staticmethod
     def defineSetFunc(classname:str,prop:QtProperty):
         setFunc:str = Generator.setFuncName + QtProperty.capitalStyle(prop.name)
@@ -407,6 +411,16 @@ class Generator:
         return ans
     
     @staticmethod
+    def defineClasstostring(qclass:QtClass):
+        '將類別轉換成QJsonObject資料'
+        indent = Generator.indent
+        ans = f'QString {qclass.name}::tostring()\n'
+        ans += '{\n'
+        ans += indent + 'return QString(QJsonDocument( this->toQJsonObject() ).toJson(QJsonDocument::Indented));\n'
+        ans += '}\n'
+        return ans   
+    
+    @staticmethod
     def declareClass(qclass:QtClass,isPrivateMember:bool = False):
         'return class declare'
         ## add class commit
@@ -423,6 +437,7 @@ class Generator:
         ans += Generator.declareClassQJsonObjectFunc()
         ## declare class to savetofile function
         ans += Generator.declareClasssavetofile()
+        ans += Generator.declareClasstostring()
         ## declare property and Read Write function 
         ans += "\n"
         ans += Generator.indent + 'FIELD(QString,cfgfilename)\n'
@@ -441,6 +456,7 @@ class Generator:
         ## declare class to QJsonObject function
         ans += Generator.defineClassQJsonObjectFunc(qclass) + '\n'
         ans += Generator.defineClasssavetofileFunc(qclass) + '\n'
+        ans += Generator.defineClasstostring(qclass) + '\n'
         # if isPrivateMember:
         #     ans += '\n'
         #     for qprop in qclass.attributes:

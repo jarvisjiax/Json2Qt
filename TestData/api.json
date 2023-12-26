@@ -1,0 +1,14 @@
+{
+    "getdeviceinfo":1,
+    "getdevicename":2,
+    "getdevicetype":3,
+    "getdeviceid":4,
+    "gethwversion":5,
+    "getfwversion":6,
+    "getlanguage":7,
+    "getserialno":8,
+    "getproductno":9,
+    "getsensorlist":10,
+    "getsensorvalue":11,
+    "getsensorsetting":12
+}

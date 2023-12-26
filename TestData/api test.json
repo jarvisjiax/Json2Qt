@@ -1,0 +1,27 @@
+{
+    "getdeviceinfo":1,
+    "getdevicename":2,
+    "getdevicetype":3,
+    "getdeviceid":4,
+    "gethwversion":5,
+    "getfwversion":6,
+    "getlanguage":7,
+    "getserialno":8,
+    "getproductno":9,
+    "getsensorlist":10,
+    "getsensorvalue":11,
+    "getsensorsetting":12
+}
+
+sn12345678/measurement/api/getdeviceinfo
+sn12345678/measurement/api/getdevicename
+sn12345678/measurement/api/getdevicetype
+sn12345678/measurement/api/getdeviceid
+sn12345678/measurement/api/gethwversion
+sn12345678/measurement/api/getfwversion
+sn12345678/measurement/api/getlanguage
+sn12345678/measurement/api/getserialno
+sn12345678/measurement/api/getproductno
+sn12345678/measurement/api/getsensorlist
+sn12345678/measurement/api/getsensorvalue
+sn12345678/measurement/api/getsensorsetting
